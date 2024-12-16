@@ -1,0 +1,36 @@
+.navbar{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+}
+.links{
+    display: flex;
+    
+}
+.links div{
+    margin-left: 40px;
+}
+.links a{
+    text-decoration: none;
+    color:#008000;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.sidebar{
+    width: 30%;
+    flex-grow: 1;
+    
+}
+.content{
+    width: 70%;
+    flex-grow: 4;
+    
+}
