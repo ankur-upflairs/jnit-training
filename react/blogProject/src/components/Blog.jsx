@@ -5,7 +5,7 @@ function Blog({title,description,image}) {
     <div style={{width:"30%"}}>
         <h3>{title}</h3>
         <p>{description}</p>
-        <img src={image} alt="" />
+        <img width={'100%'} src={image} alt="" />
     </div>
   )
 }

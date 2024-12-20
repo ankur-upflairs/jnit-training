@@ -1,0 +1,35 @@
+mongodb+srv://jnit:jnit123@cluster0.mk94png.mongodb.net/
+
+table => collection => array of objects
+row => document => object
+columns => fields => 
+[
+	{
+		"name":"sunil"
+	}
+]
+commands
+
+use blogdatabase
+-------
+db.blogs.insertOne({"title":"html",
+"description":"hyper text markup language",
+image:"image1"})
+-----------------
+db.blogs.deleteOne({image:"image5"})
+------
+db.blogs.findOne({image:"image1"})
+--------
+db.blogs.find({image:"image1"})
+--------
+db.blogs.updateOne(
+{ image:"image2"},
+  {$set:{auther:"admin",title:"hello"}}
+)
+---------
+db.blogs.find({})
+-----
+db.blogs.updateMany(
+{image:"image1"},
+  {$set:{title:"abc"}}
+)
